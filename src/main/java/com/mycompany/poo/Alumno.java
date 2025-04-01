@@ -16,6 +16,14 @@ public class Alumno {
             System.out.println("Desaprobadoo");
         }
     }
+     public void mayorEdad(int edad){
+        if (edad >= 18 ){
+            System.out.println("Mayor de edad");
+        }
+        else if (edad <= 18 ){
+            System.out.println("Menor de edad");
+        }
+    }
 public Alumno(){
     
 }
@@ -48,6 +56,4 @@ public Alumno(){
     public void setApellido(String apellido) {
         this.apellido = apellido;
     }
-    
-    
 }
