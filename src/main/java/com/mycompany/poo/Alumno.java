@@ -17,6 +17,15 @@ public class Alumno {
         }
     }
     
+     public void mayorEdad(int edad){
+        if (edad >= 18 ){
+            System.out.println("Mayor de edad");
+        }
+        else if (edad <= 18 ){
+            System.out.println("Menor de edad");
+        }
+    }
+     
 public Alumno(){
     
 }
