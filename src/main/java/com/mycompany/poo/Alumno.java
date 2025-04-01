@@ -25,6 +25,9 @@ public class Alumno {
             System.out.println("Menor de edad");
         }
     }
+     public void x(){
+         
+     }
      
 public Alumno(){
     
