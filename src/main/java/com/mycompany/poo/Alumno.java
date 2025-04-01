@@ -16,7 +16,6 @@ public class Alumno {
             System.out.println("Desaprobadoo");
         }
     }
-    
      public void mayorEdad(int edad){
         if (edad >= 18 ){
             System.out.println("Mayor de edad");
@@ -25,10 +24,6 @@ public class Alumno {
             System.out.println("Menor de edad");
         }
     }
-     public void x(){
-         
-     }
-     
 public Alumno(){
     
 }
