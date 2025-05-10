@@ -15,6 +15,11 @@ public class ProductoController {
     }
     
     public void buscarProductoPorId(int id){
-        
+	for (Producto p : productos){
+	    if (p.getId.equals(id)) {
+		System.out.println("Producto encontrado");
+		System.out.println(p.toString());
+
+
     }
 }
